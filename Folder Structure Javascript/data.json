@@ -1,0 +1,39 @@
+{
+    "id": 1,
+    "type": "folder",
+    "name": "root",
+    "children": [
+        {
+            "id": 2,
+            "type": "file",
+            "name": "index.html",
+            "children": null
+        },
+        {
+            "id": 3,
+            "type": "folder",
+            "name" : "src",
+            "children": [
+                {
+                    "id" : 4,
+                    "type": "file",
+                    "name" : "App.js",
+                    "children" : null
+                },
+                {
+                    "id" : 5,
+                    "type": "folder",
+                    "name": "components",
+                    "children": [
+                        {
+                            "id" : 6,
+                            "type" : "file",
+                            "name" : "Carousel.jsx",
+                            "children": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
