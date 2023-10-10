@@ -1,0 +1,36 @@
+.carouselBody{
+    width: 70%;
+    height: 700px;
+    box-shadow: 0px 0px 3px lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.imageSlide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+    opacity: 0;
+}
+
+.focused{
+    opacity: 1;
+}
+
+button{
+    position: absolute;
+    z-index: 1;
+}
+
+button:first-of-type{
+    left: 1rem;
+}
+
+button:nth-of-type(2){
+    right: 1rem;
+}
+
