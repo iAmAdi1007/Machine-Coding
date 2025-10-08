@@ -1,0 +1,25 @@
+Problem Statement: In this challenge, you are asked to implement a simplified version of the TypeRacer game to test typing speed.
+
+
+Requirements:
+
+* The UI should display a random paragraph
+* The player must type a text into an input field
+    - All characters are faded initially
+    - If a character matches the corresponding character in the paragraph, it turns green
+    - If a character is incorrect, it turns red, and all the subsequent characters also appear red until corrected.
+* As soon as the user starts typing, start a timer of 30s.
+* The game stops when either timer is over or the paragraph is completely typed out.
+* Upon completion, shows the final typing speed in words per minute(WPM), accuracy and provide an option to retry.
+* Backspace to clear the typed words should be supported.
+
+
+
+CSS Styles:
+
+Background: #414141
+Untyped Characters: rgba(255, 255, 255, 0.2)
+Correct Characters: #7fe08a
+Incorrect Characters: #ff7b7b
+
+Timer and Carat: #f6c63e

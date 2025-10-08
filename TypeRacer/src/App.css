@@ -1,0 +1,51 @@
+main{
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  cursor: default;
+}
+
+.timer{
+  color: #f6c63e;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.inputArea{
+  width: 0;
+  height: 0;
+  border: 0;
+}
+
+.paragraph{
+  font-size: 1.5rem;
+}
+
+.paragraph .untyped{
+  color: rgba(255, 255, 255, 0.2)
+}
+
+.paragraph .correct{
+  color: #7fe08a;
+}
+
+.paragraph .incorrect{
+  color: #ff7b7b;
+}
+
+.analytics{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.analytics button{
+  width: fit-content;
+  padding: 5px;
+  background-color: #f6c63e;
+  font-size: 1.2rem;
+}
+
